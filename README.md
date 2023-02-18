@@ -18,14 +18,14 @@ wine bin/atgame.exe
 
 
 ### Gameplay
-W - up
-S - down
-A - left
-D - right.
+W - up <br>
+S - down <br>
+A - left <br>
+D - right. <br>
 
 Enjoy.
 
-:
+
 
 ![image](./assets/gameplay.png)
 
