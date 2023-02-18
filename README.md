@@ -29,5 +29,5 @@ Enjoy.
 
 ![image](./assets/gameplay.png)
 
-### Conclustion
+### Conclusion
 If you have problems or ideas create a new issue.
