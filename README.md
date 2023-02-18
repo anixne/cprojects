@@ -28,3 +28,6 @@ Enjoy.
 :
 
 ![image](./assets/gameplay.png)
+
+### Conclustion
+If you have problems or ideas create a new issue.
