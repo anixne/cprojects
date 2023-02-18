@@ -22,6 +22,7 @@ W - up <br>
 S - down <br>
 A - left <br>
 D - right. <br>
+E - exit.
 
 Enjoy.
 
