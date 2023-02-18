@@ -18,6 +18,7 @@ wine bin/atgame.exe
 
 
 ### Gameplay
+E - exit <br>
 W - up <br>
 S - down <br>
 A - left <br>
