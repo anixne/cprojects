@@ -18,6 +18,7 @@ wine bin/atgame.exe
 
 
 ### Gameplay
+E - exit <br>
 W - up <br>
 S - down <br>
 A - left <br>
@@ -29,5 +30,5 @@ Enjoy.
 
 ![image](./assets/gameplay.png)
 
-### Conclustion
+### Conclusion
 If you have problems or ideas create a new issue.
