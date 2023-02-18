@@ -27,7 +27,7 @@ int main()
     for(i = 0; i <10; i++){
         printf("%s\n", mas[i]);
     }
-    printf("\n collected apples: %d", apples);
+    printf("\n collected apples: %d \n", apples);
     key = getch();
     ox = x;
     oy = y;
