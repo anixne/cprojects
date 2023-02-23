@@ -8,6 +8,7 @@ git clone https://github.com/anixne/cprojects
 
 <details>
   <summary>atgame</summary>
+
 ### Windows
 ```
 bin\atgame.exe
