@@ -7,7 +7,8 @@ git clone https://github.com/anixne/cprojects
 ```
 
 <details>
-  <summary>atgame</summary>
+<summary>atgame</summary>
+  
 ### Windows
 ```
 bin\atgame.exe
@@ -36,8 +37,9 @@ Enjoy.
 If you have problems or ideas create a new issue.
   </details>
 <details>
-  <summary> arkanoid</summary>
- ### Windows
+<summary> arkanoid</summary>
+  
+### Windows
 ```
 bin\arkanoid.exe
 ```
