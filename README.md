@@ -35,3 +35,27 @@ Enjoy.
 ### Conclusion
 If you have problems or ideas create a new issue.
   </details>
+<details>
+  <summary> arkanoid</summary>
+ ### Windows
+```
+bin\arkanoid.exe
+```
+### Linux
+to run the executable file you will need wine.
+```bash
+wine bin/arkanoid.exe
+```
+  
+ ### Gameplay
+Esc - exit <br>
+W - start <br>
+A - left <br>
+D - right. <br>
+
+Enjoy.
+
+
+
+![image](./assets/arkanoidgp.png)
+  </details>
