@@ -1,4 +1,4 @@
-# atgame
+# cProjects
 
 ## Usage
 Clone this repository
@@ -6,6 +6,8 @@ Clone this repository
 git clone https://github.com/anixne/cprojects
 ```
 
+<details>
+  <summary>atgame</summary>
 ### Windows
 ```
 bin\atgame.exe
@@ -32,3 +34,4 @@ Enjoy.
 
 ### Conclusion
 If you have problems or ideas create a new issue.
+  </details>
