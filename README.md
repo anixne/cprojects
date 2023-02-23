@@ -47,12 +47,13 @@ to run the executable file you will need wine.
 wine bin/arkanoid.exe
 ```
   
+  
  ### Gameplay
 Esc - exit <br>
 W - start <br>
 A - left <br>
 D - right. <br>
-
+  
 Enjoy.
 
 
