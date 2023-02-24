@@ -98,9 +98,9 @@ void show(){
     for(int i = 0; i < height; i++){
         printf("%s",mas[i]);
         if(i == 3)
-            printf("  your score: %i  ", hitCnt);
+            printf("\t  your score: %i  ", hitCnt);
         if(i == 4)
-            printf("  your max score: %i  ", maxHitCnt);
+            printf("\t  your max score: %i  ", maxHitCnt);
         if(i < height - 1){
             printf("\n");
         }
