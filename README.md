@@ -62,3 +62,20 @@ Enjoy.
 
 ![image](./assets/arkanoidgp.png)
   </details>
+<details>
+  <summary>snowGenerator</summary>
+### simple snow generator on console:)
+  
+### Windows
+```
+bin\genesnow.exe
+```
+### Linux
+to run the executable file you will need wine.
+```bash
+wine bin/genesnow.exe
+```
+
+![image](./assets/snow.png)
+  
+</details>  
