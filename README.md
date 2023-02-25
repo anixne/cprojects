@@ -64,8 +64,9 @@ Enjoy.
   </details>
 <details>
   <summary>snowGenerator</summary>
-### simple snow generator on console:)
   
+### simple snow generator on console:)
+```
 ### Windows
 ```
 bin\genesnow.exe
