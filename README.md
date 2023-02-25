@@ -70,11 +70,15 @@ Enjoy.
   
 ### Windows
 ```
+  
 bin\genesnow.exe
 ```
+  
 ### Linux
+  
 to run the executable file you will need wine.
 ```bash
+  
 wine bin/genesnow.exe
 ```
 
