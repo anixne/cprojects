@@ -67,6 +67,7 @@ Enjoy.
   
 ### simple snow generator on console:)
 ```
+  
 ### Windows
 ```
 bin\genesnow.exe
