@@ -74,7 +74,15 @@ to run the executable file you will need wine.
 ```bash
 wine bin/genesnow.exe
 ```
-  
+
+Level 1  
 ![image](./assets/snow.png)
+
+Level 2
+![image](./assets/arkanoid lvl2.png)  
+  
+Level 3
+  
+![image](./assets/arkanoid lvl3.png)  
   
 </details>  
