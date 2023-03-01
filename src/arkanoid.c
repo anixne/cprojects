@@ -21,6 +21,7 @@ iRacket racket;
 iBall ball;
 int hitCnt = 0;
 int maxHitCnt = 0;
+int lvl = 1;
 void moveBall (float x, float y){
     ball.x = x;
     ball.y = y;
@@ -105,6 +106,8 @@ void init(int lvl)
 void show(){
     for(int i = 0; i < height; i++){
         printf("%s",mas[i]);
+        if(i == 1)
+            printf("\t  your level: %i  ", lvl);
         if(i == 3)
             printf("\t  your score: %i  ", hitCnt);
         if(i == 4)
@@ -129,11 +132,19 @@ void  setcur(int x, int y){
     coord.Y = y;
     SetConsoleCursorPosition( GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
+void ShowPreview(){
+ system("cls");
+ printf("\n\n\n\n\n\n\n\n\n\n\n \t\t\t\t     LEVEL   %d",lvl);
+ Sleep(1000);
+ system("cls");
+}
 int main(){
-    BOOL run = FALSE;
     char c;
+    BOOL run = FALSE;
     initRacket();
     initBall();
+  
+    ShowPreview();
     do{
     setcur(0,0);
     if(run)
@@ -144,7 +155,13 @@ int main(){
             maxHitCnt = hitCnt;
         hitCnt = 0;
     }
-    init();
+    if(hitCnt > 10){
+     lvl++;
+     run = FALSE;
+     maxHitCnt = 0;
+     hitCnt = 0;
+    }
+    init(lvl);
     putRacket();
     putBall();
     show();
