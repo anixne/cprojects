@@ -59,15 +59,12 @@ D - right. <br>
 Enjoy.
 
 
-Level 1
+
 ![image](./assets/arkanoidgp.png)
-Level 2
+
+![image](./assets/lvl2.png)  
   
-![image](./assets/arkanoid lvl2.png)  
-  
-Level 3
-  
-![image](./assets/arkanoid lvl3.png)    
+![image](./assets/lvl3.png)    
   </details>
 <details>
   <summary>snowGenerator</summary>
