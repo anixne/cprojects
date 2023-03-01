@@ -93,6 +93,9 @@ void init()
 
     for(int i = 1; i < height; i++)
         strncpy(mas[i], mas[1],width+1);
+ 
+    for(int i = 20; i < 50; i++)
+        mas[10][i] = '#';
  }
 void show(){
     for(int i = 0; i < height; i++){
