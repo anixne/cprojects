@@ -134,7 +134,7 @@ void  setcur(int x, int y){
 }
 void ShowPreview(){
  system("cls");
- printf("\n\n\n\n\n\n\n\n\n\n\n \t\t\t\t     LEVEL   %d",lvl);
+ printf("\n\n\n\n\n\n\n\n\n\n\n\n\n \t\t\t\t\t           LEVEL   %d",lvl);
  Sleep(1000);
  system("cls");
 }
@@ -143,7 +143,7 @@ int main(){
     BOOL run = FALSE;
     initRacket();
     initBall();
-  
+
     ShowPreview();
     do{
     setcur(0,0);
@@ -160,6 +160,7 @@ int main(){
      run = FALSE;
      maxHitCnt = 0;
      hitCnt = 0;
+     ShowPreview();
     }
     init(lvl);
     putRacket();
