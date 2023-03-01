@@ -30,8 +30,8 @@ D - right. <br>
 Enjoy.
 
 
-
 ![image](./assets/gameplay.png)
+  
 
 ### Conclusion
 If you have problems or ideas create a new issue.
@@ -59,8 +59,15 @@ D - right. <br>
 Enjoy.
 
 
-
+Level 1
 ![image](./assets/arkanoidgp.png)
+Level 2
+  
+![image](./assets/arkanoid lvl2.png)  
+  
+Level 3
+  
+![image](./assets/arkanoid lvl3.png)    
   </details>
 <details>
   <summary>snowGenerator</summary>
@@ -74,15 +81,6 @@ to run the executable file you will need wine.
 ```bash
 wine bin/genesnow.exe
 ```
-
-Level 1  
 ![image](./assets/snow.png)
-
-Level 2
-![image](./assets/arkanoid lvl2.png)  
-  
-Level 3
-  
-![image](./assets/arkanoid lvl3.png)  
   
 </details>  
