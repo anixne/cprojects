@@ -80,7 +80,7 @@ void putRacket(){
         mas[racket.y][i] = '@';
     }
 }
-void init()
+void init(int lvl)
 {
    for(int i =0; i < width; i++)
        mas[0][i] = '#';
@@ -93,9 +93,14 @@ void init()
 
     for(int i = 1; i < height; i++)
         strncpy(mas[i], mas[1],width+1);
- 
-    for(int i = 20; i < 50; i++)
-        mas[10][i] = '#';
+    if(lvl == 2)
+        for(int i = 20; i < 50; i++)
+            mas[10][i] = '#';
+   if(lvl == 3){
+    for(int j = 1;j < 10; j++)
+        for(int i=1; i < 65;i+=7)
+            mas[j][i] = '#';
+   }
  }
 void show(){
     for(int i = 0; i < height; i++){
