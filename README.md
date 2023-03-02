@@ -56,15 +56,14 @@ W - start <br>
 A - left <br>
 D - right. <br>
   
-Enjoy.
-
-
 
 ![image](./assets/arkanoidgp.png)
 
 ![image](./assets/lvl2.png)  
   
 ![image](./assets/lvl3.png)    
+  
+Enjoy.  
   </details>
 <details>
   <summary>snowGenerator</summary>
