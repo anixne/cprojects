@@ -4,6 +4,7 @@
 Clone this repository
 ```bash
 git clone https://github.com/anixne/cprojects
+cd cprojects
 ```
 
 <details>
@@ -80,3 +81,20 @@ wine bin/genesnow.exe
 ![image](./assets/snow.png)
   
 </details>  
+<details>
+<summary>Audio duration calculator</summary>
+  
+This script calculates all audio files duration in the folder
+  
+Requirments:
+  
+```bash
+sudo pacman -S ffmpeg
+cd src
+gcc audio_duration.c -o audio_duration -lavformat -lavcodec -lavutil -lm
+```
+### Usage
+
+```bash
+./audio_duration /path/to/audio/file
+```
